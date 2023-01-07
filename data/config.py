@@ -15,7 +15,8 @@ ADMINS = env.list("ADMINS")  # adminlar ro'yxati
 # DB_HOST = env.str("DB_HOST") # host nomi
 
 
-DB_USER = 'postgres'
-DB_PASS = nHFwW2jKpefS7ljDNPom
-DB_NAME = railway
-DB_HOST = 'containers-us-west-160.railway.app'
+DB_USER='postgres'
+DB_PASS='nHFwW2jKpefS7ljDNPom'
+DB_NAME='railway'
+DB_HOST='containers-us-west-160.railway.app'
+
