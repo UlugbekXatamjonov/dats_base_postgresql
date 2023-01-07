@@ -9,7 +9,13 @@ BOT_TOKEN = env.str("BOT_TOKEN")  # Bot toekn
 ADMINS = env.list("ADMINS")  # adminlar ro'yxati
 # IP = env.str("ip")  # Xosting ip manzili
 
-DB_USER = env.str("DB_USER") # foydalanuvchi nomi
-DB_PASS = env.str("DB_PASS") # baza paroli
-DB_NAME = env.str("DB_NAME") # baza nomi
-DB_HOST = env.str("DB_HOST") # host nomi
+# DB_USER = env.str("DB_USER") # foydalanuvchi nomi
+# DB_PASS = env.str("DB_PASS") # baza paroli
+# DB_NAME = env.str("DB_NAME") # baza nomi
+# DB_HOST = env.str("DB_HOST") # host nomi
+
+
+DB_USER = postgres
+DB_PASS = nHFwW2jKpefS7ljDNPom
+DB_NAME = railway
+DB_HOST = containers-us-west-160.railway.app
