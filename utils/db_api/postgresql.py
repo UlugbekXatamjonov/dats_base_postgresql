@@ -20,10 +20,10 @@ class Database:
         )
 
     async def execute(self, command, *args,
-                      fetch: bool = False,
-                      fetchval: bool = False,
-                      fetchrow: bool = False,
-                      execute: bool = False
+                      fetch: bool = False, # barcha ma'lumotlarni olib beradi
+                      fetchval: bool = False, #  bitta qiymatni olib beradi
+                      fetchrow: bool = False, # bitta ustundagi malumotni olib beradi
+                      execute: bool = False, # yaratish, o'chirish, yangilash
                       ):
         async with self.pool.acquire() as connection:
             connection: Connection
